@@ -127,3 +127,51 @@ A heuristica gulosa escolhe itens com maior valor/peso primeiro. Gap medio 0.39%
 ## Reflexoes
 
 Para testes rapidos a gulosa parece suficiente neste experimento. Preferiria forca bruta quando n e pequeno e o otimo e obrigatorio.
+
+
+## Lab 04 - Lista de compras
+
+## Resultado
+
+Lista de compras do mes com orcamento de R$ 50. O codigo gera tres combinacoes aleatorias de 8 produtos.
+
+```
+Combinacao (0=nao compra, 1=compra): (0, 0, 1, 0, 0, 0, 0, 0)
+Custo total: R$ 5
+Utilidade total: 6
+Respeita orcamento? True
+Itens escolhidos:
+ - Leite | preco: 5 | utilidade: 6
+
+Combinacao (0=nao compra, 1=compra): (1, 0, 0, 0, 0, 0, 0, 0)
+Custo total: R$ 22
+Utilidade total: 8
+Respeita orcamento? True
+Itens escolhidos:
+ - Arroz | preco: 22 | utilidade: 8
+
+Combinacao (0=nao compra, 1=compra): (1, 0, 1, 1, 0, 0, 1, 1)
+Custo total: R$ 52
+Utilidade total: 32
+Respeita orcamento? False
+Itens escolhidos:
+ - Arroz | preco: 22 | utilidade: 8
+ - Leite | preco: 5 | utilidade: 6
+ - Cafe | preco: 15 | utilidade: 9
+ - Acucar | preco: 4 | utilidade: 4
+ - Biscoito | preco: 6 | utilidade: 5
+```
+
+A terceira combinacao passou do orcamento (R$ 52). As duas primeiras ficaram dentro dos R$ 50.
+
+## Consideracoes
+
+Cada produto entra ou nao na lista (0 ou 1). Com 8 produtos ha 2^8 = 256 combinacoes. Quero maximizar a utilidade total e o custo tem que ficar em ate R$ 50.
+
+Arroz R$ 22 (utilidade 8), Feijao R$ 8 (7), Leite R$ 5 (6), Cafe R$ 15 (9), Macarrao R$ 4 (5), Oleo R$ 9 (6), Acucar R$ 4 (4), Biscoito R$ 6 (5).
+
+O problema e parecido com a mochila dos labs anteriores. Com 8 itens ainda da para enumerar tudo. Com 20 itens ja passa de 1 milhao de combinacoes. Por isso considero dificil (NP), como na aula.
+
+## Reflexoes
+
+Para achar a melhor lista usaria enumeracao como no Lab 01. Com mais produtos, partiria para gulosa como no Lab 03.
