@@ -21,13 +21,13 @@ Itens escolhidos:
 
 O melhor valor foi 9, combinacao (1, 1, 0, 1, 1). Entraram Livro, Fone, Carregador e Chocolate. A Camiseta ficou de fora. Peso total 5, igual a capacidade.
 
-## Consideracoes
+## Considerações
 
 Cada item pode entrar ou nao (0 ou 1). Com 5 itens ha 2^5 = 32 combinacoes. O codigo testa todas e fica com a melhor valida.
 
 Com 15 itens seriam 32768 combinacoes (2^15). Ainda roda rapido, mas o espaco cresce exponencialmente. Com 30 itens passa de 1 bilhao.
 
-## Reflexoes
+## Reflexões
 
 Sao 32 combinacoes porque cada um dos 5 itens tem 2 opcoes. Com 15 itens seriam 32768, ainda executavel em pouco tempo, mas o crescimento e exponencial. Problemas parecidos: mochila de viagem, compras com orcamento fixo, escolha de materias dentro da carga horaria.
 
@@ -73,13 +73,13 @@ OBSERVE: o numero de rotas cresce como (n-1)!  (fatorial)
 | 5 | 24 | 0.000129 | 41 |
 | 6 | 120 | 0.000669 | 91 |
 
-## Consideracoes
+## Considerações
 
 O numero de rotas segue (n-1)!: 3!=6, 4!=24, 5!=120. Nao e linear nem quadratico, cresce muito mais rapido.
 
 Para 10 cidades seriam 362880 rotas. Com 6 cidades o tempo foi 0.000669 s para 120 rotas. Conta grosseira: 362880 / 120 * 0.000669, cerca de 2 s no mesmo computador.
 
-## Reflexoes
+## Reflexões
 
 O TSP e considerado dificil porque o tempo explode com o numero de cidades. Mesmo com algoritmo correto, instancias grandes demoram demais por forca bruta.
 
@@ -120,11 +120,11 @@ Gap maximo    : 4.19%
 Desvio padrao : 1.03%
 ```
 
-## Consideracoes
+## Considerações
 
 A heuristica gulosa escolhe itens com maior valor/peso primeiro. Gap medio 0.39%, maximo 4.19%. Na maioria das instancias bateu o otimo.
 
-## Reflexoes
+## Reflexões
 
 Para testes rapidos a gulosa parece suficiente neste experimento. Preferiria forca bruta quando n e pequeno e o otimo e obrigatorio.
 
@@ -164,7 +164,7 @@ Itens escolhidos:
 
 A terceira combinacao passou do orcamento (R$ 52). As duas primeiras ficaram dentro dos R$ 50.
 
-## Consideracoes
+## Considerações
 
 Cada produto entra ou nao na lista (0 ou 1). Com 8 produtos ha 2^8 = 256 combinacoes. Quero maximizar a utilidade total e o custo tem que ficar em ate R$ 50.
 
@@ -172,6 +172,6 @@ Arroz R$ 22 (utilidade 8), Feijao R$ 8 (7), Leite R$ 5 (6), Cafe R$ 15 (9), Maca
 
 O problema e parecido com a mochila dos labs anteriores. Com 8 itens ainda da para enumerar tudo. Com 20 itens ja passa de 1 milhao de combinacoes. Por isso considero dificil (NP), como na aula.
 
-## Reflexoes
+## Reflexões
 
 Para achar a melhor lista usaria enumeracao como no Lab 01. Com mais produtos, partiria para gulosa como no Lab 03.
