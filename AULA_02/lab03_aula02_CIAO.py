@@ -90,7 +90,7 @@ for k in range(n_instancias):
  
     gap = calcular_gap(heur, otimo)
     gaps.append(gap)
- 
+
     print(f'Instancia {k+1:2d} | Otimo: {otimo:4d} | Gulosa: {heur:4d} | Gap: {gap:5.1f}%')
  
 # ----------------------------------------------------------
