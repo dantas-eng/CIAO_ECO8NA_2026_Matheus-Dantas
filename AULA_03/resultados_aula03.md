@@ -134,3 +134,62 @@ Na geração 0 o melhor já foi x = 31 (961), porque um indivíduo sorteado era 
 Nesta execução o AG achou o ótimo logo na geração 0. O elitismo manteve x = 31 nas gerações seguintes. Em outra rodada, com população inicial pior, provavelmente levaria mais gerações para chegar perto de 961.
 
 
+## Lab 02 - OneMax
+
+## Resultado
+
+Parâmetros padrão (TAMANHO=20, POPULACAO=30, GERACOES=50, TAXA_MUT=0.02, ELITE=2):
+
+```
+Geração   0: Melhor = 14/20, Média = 8.63
+Geração  10: Melhor = 20/20, Média = 18.60
+Geração  40: Melhor = 20/20, Média = 19.50
+
+ MELHOR FITNESS: 20/20
+   Ótimo = 20 (todos os bits são 1)
+```
+
+Experimentos do desafio (seed=42):
+
+| Experimento | Mudança | Melhor final | Média na geração 10 |
+|-------------|---------|--------------|---------------------|
+| mut010 | TAXA_MUT=0.1 | 20/20 | 16.63 |
+| pop010 | POPULACAO=10 | 20/20 | 14.70 |
+| gen100 | GERACOES=100 | 20/20 | 18.90 |
+| elite0 | ELITE=0 | 20/20 | 17.97 |
+
+Saídas completas dos experimentos:
+
+```
+Experimento mut010 (TAXA_MUT=0.1)
+Geração  40: Melhor = 20/20, Média = 16.73
+MELHOR FITNESS: 20/20
+
+Experimento pop010 (POPULACAO=10)
+Geração  10: Melhor = 15/20, Média = 14.70
+MELHOR FITNESS: 20/20
+
+Experimento gen100 (GERACOES=100)
+Geração  90: Melhor = 20/20, Média = 19.53
+MELHOR FITNESS: 20/20
+
+Experimento elite0 (ELITE=0)
+Geração  10: Melhor = 20/20, Média = 17.97
+MELHOR FITNESS: 20/20
+```
+
+## Considerações
+
+No padrão o AG achou 20/20 antes da geração 10. Com TAXA_MUT=0.1 a média da população ficou mais baixa (16.73 na geração 40), porque a mutação alta bagunça mais os cromossomos, mesmo chegando no ótimo no final.
+
+Com POPULACAO=10 a convergência foi mais lenta: na geração 10 o melhor era só 15/20. População pequena dá menos diversidade e demora mais para espalhar bons genes.
+
+Com GERACOES=100 o resultado final foi o mesmo (20/20), só que com mais tempo para estabilizar a média.
+
+Com ELITE=0 ninguém passa direto para a próxima geração. Ainda assim chegou em 20/20, mas a média na geração 10 (17.97) ficou um pouco pior que no padrão (18.60).
+
+## Reflexões
+
+Neste OneMax com seed fixa, todos os testes chegaram no ótimo. A população pequena (10) foi o que mais atrasou a convergência. A mutação alta (0.1) manteve a média mais baixa durante as gerações.
+
+
