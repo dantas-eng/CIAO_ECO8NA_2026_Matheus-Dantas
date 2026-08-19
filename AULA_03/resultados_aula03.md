@@ -193,3 +193,31 @@ Com ELITE=0 ninguém passa direto para a próxima geração. Ainda assim chegou 
 Neste OneMax com seed fixa, todos os testes chegaram no ótimo. A população pequena (10) foi o que mais atrasou a convergência. A mutação alta (0.1) manteve a média mais baixa durante as gerações.
 
 
+## Lab 03 - x * sin(3x)
+
+## Resultado
+
+```
+==================================================
+OTIMIZANDO f(x) = x * sin(3x)
+==================================================
+Geração   0: Melhor f(x) = 5.1353 (x = 7.0588)
+Geração  10: Melhor f(x) = 6.6225 (x = 6.9020)
+Geração  20: Melhor f(x) = 8.9019 (x = 8.9020)
+Geração  30: Melhor f(x) = 8.9019 (x = 8.9020)
+Geração  40: Melhor f(x) = 8.9019 (x = 8.9020)
+
+ MELHOR SOLUÇÃO: x = 8.9020, f(x) = 8.9019
+```
+
+## Considerações
+
+Cada indivíduo tem 8 bits. A função `bits_para_x` converte para decimal (0 a 255) e escala para x entre 0 e 10. O fitness é f(x) = x * sin(3x).
+
+A função tem vários picos no intervalo, então não dá para resolver fácil de outro jeito. O AG começou com f(x) ≈ 5.13 e subiu até 8.90 por volta da geração 20.
+
+As três funções completadas foram: conversão bits→x, cálculo do fitness e mutação bit-flip (5% por bit).
+
+## Reflexões
+
+O melhor x encontrado foi 8.9020 com f(x) = 8.9019. Parece um pico forte da função no gráfico. Com mais gerações ou população maior talvez explorasse outros picos, mas o valor já estabilizou a partir da geração 20.
