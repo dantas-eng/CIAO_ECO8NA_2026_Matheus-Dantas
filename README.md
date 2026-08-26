@@ -2,4 +2,3 @@
 
 Repositório oficial da disciplina Computational Intelligence & Algorithm Optimization (Engenharia da Computação).
 
-Entregas dos laboratórios ficam em `AULA_02/`.
