@@ -9,8 +9,9 @@ Repositório de entregas da disciplina **Computational Intelligence & Algorithm 
 | `AULA_02/` | Laboratórios 01–04 (AC-1 parte 1) |
 | `AULA_03/` | Laboratórios 01–03 (AC-1 parte 2, algoritmo genético) |
 | `AULA_04/` | Laboratórios 01–03 + desafios finais AC-1 |
+| `AULA_05/` | AC-2 parte 1 — PSO (4 missões em `aula05_CIAO.ipynb`) |
 
-Cada aula inclui notebooks `.ipynb` e arquivo `resultados_aulaXX.md` com saídas e considerações.
+Cada aula inclui notebooks `.ipynb` e arquivo de resultados com saídas e considerações (`resultados_aulaXX.md`; na AULA_05: `resultados_aula.md`).
 
 ## Turma
 
@@ -18,3 +19,5 @@ Laboratório 8 — quartas-feiras — presencial UniFECAF
 
 
 Arquivos extras em `AULA_04/`: `desafio_03_alocacao_servidores.py`, `desafio_ac1_master_sdwan.py`.
+
+Arquivos em `AULA_05/`: `aula05_CIAO.py` (script auxiliar), `aula05_CIAO.ipynb`, `resultados_aula.md`.
