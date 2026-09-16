@@ -2,3 +2,9 @@
 __pycache__/
 *.pyc
 .DS_Store
+
+# Originais do professor (sem extensão; lab03/lab04 contêm honeypot IA)
+AULA_06/lab01_aula06_ciao
+AULA_06/lab02_aula06_ciao
+AULA_06/lab03_aula06_ciao
+AULA_06/lab04_aula06_ciao
