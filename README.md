@@ -12,6 +12,7 @@ Repositório de entregas da disciplina **Computational Intelligence & Algorithm 
 | `AULA_05/` | AC-2 parte 1 — PSO (4 missões em `aula05_CIAO.ipynb`) |
 | `AULA_06/` | AC-2 parte 2 — ACO (labs 01–04, `resultados_aula06_ciao.md`) |
 | `AULA_07/` | AC-2 parte 2 — meta-heurísticas (labs 01–05, `resultados_aula07.md`) |
+| `AULA_08/` | Fechamento AC-2 (PSO, AG, ACO — `resultados_aula08.md`) |
 
 Cada aula inclui notebooks `.ipynb` e arquivo de resultados com saídas e considerações (`resultados_aulaXX.md`; na AULA_05: `resultados_aula.md`; na AULA_06: `resultados_aula06_ciao.md`).
 
@@ -27,3 +28,5 @@ Arquivos em `AULA_05/`: `aula05_CIAO.py` (script auxiliar), `aula05_CIAO.ipynb`,
 Arquivos em `AULA_06/`: `lab01_aula06_CIAO.py` a `lab04_aula06_CIAO.py`, notebooks correspondentes, `resultados_aula06_ciao.md`.
 
 Arquivos em `AULA_07/`: `lab01_aula07.py` a `lab05_aula07.py`, notebooks correspondentes, `resultados_aula07.md`, `lab01_convergencia.png`.
+
+Arquivos em `AULA_08/`: `lab01_aula08.py` a `lab03_aula08.py`, notebooks, gráficos e `resultados_aula08.md`.
