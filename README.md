@@ -14,6 +14,7 @@ Repositório de entregas da disciplina **Computational Intelligence & Algorithm 
 | `AULA_07/` | AC-2 parte 2 — meta-heurísticas (labs 01–05, `resultados_aula07.md`) |
 | `AULA_08/` | Fechamento AC-2 (PSO, AG, ACO — `resultados_aula08.md`) |
 | `AULA_09/` | AC-3 Sprint 1 — Lógica Fuzzy (labs 01–03, `resultados_aula09.md`) |
+| `AULA_10/` | AC-3 sprint 2 — Mamdani, desafio do centroide e superfície 3D (`resultados_aula10.md`) |
 
 Cada aula inclui notebooks `.ipynb` e arquivo de resultados com saídas e considerações (`resultados_aulaXX.md`; na AULA_05: `resultados_aula.md`; na AULA_06: `resultados_aula06_ciao.md`).
 
@@ -33,3 +34,5 @@ Arquivos em `AULA_07/`: `lab01_aula07.py` a `lab05_aula07.py`, notebooks corresp
 Arquivos em `AULA_08/`: `lab01_aula08.py` a `lab03_aula08.py`, notebooks, gráficos e `resultados_aula08.md`.
 
 Arquivos em `AULA_09/`: `lab01_aula09.py` a `lab03_aula09.py`, gráficos e `resultados_aula09.md`.
+
+Arquivos em `AULA_10/`: `lab01_aula10.py`, `resultados_aula10.md`, `saida_centroide.png`, `superficie_decisao.png`.
