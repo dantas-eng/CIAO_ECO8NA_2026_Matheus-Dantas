@@ -16,6 +16,7 @@ Repositório de entregas da disciplina **Computational Intelligence & Algorithm 
 | `AULA_09/` | AC-3 Sprint 1 — Lógica Fuzzy (labs 01–03, `resultados_aula09.md`) |
 | `AULA_10/` | AC-3 sprint 2 — Mamdani, desafio do centroide e superfície 3D (`resultados_aula10.md`) |
 | `AULA_11/` | AC-3 etapa 3 — pytest do motor fuzzy e triagem de UTI (`resultados_aula11_ciao.md`) |
+| `AULA_12/` | AC-4 parte 1 — NSGA-II e fronteira de Pareto (`resultados_aula12.md`) |
 
 Cada aula inclui notebooks `.ipynb` e arquivo de resultados com saídas e considerações (`resultados_aulaXX.md`; na AULA_05: `resultados_aula.md`; na AULA_06: `resultados_aula06_ciao.md`).
 
@@ -39,3 +40,5 @@ Arquivos em `AULA_09/`: `lab01_aula09.py` a `lab03_aula09.py`, gráficos e `resu
 Arquivos em `AULA_10/`: `lab01_aula10.py`, `resultados_aula10.md`, `saida_centroide.png`, `superficie_decisao.png`.
 
 Arquivos em `AULA_11/`: `src/engine.py`, `src/model.py`, `src/uti_triagem.py`, `test_fuzzy_engine.py`, `test_uti_triagem.py`, `resultados_aula11_ciao.md`.
+
+Arquivos em `AULA_12/`: `demo_nsga2.py`, exercícios `ex01` a `ex06`, `frota_robos_problem.py`, gráficos e `resultados_aula12.md` / `resultados_aula12_CIAO.md`.
