@@ -17,6 +17,7 @@ Repositório de entregas da disciplina **Computational Intelligence & Algorithm 
 | `AULA_10/` | AC-3 sprint 2 — Mamdani, desafio do centroide e superfície 3D (`resultados_aula10.md`) |
 | `AULA_11/` | AC-3 etapa 3 — pytest do motor fuzzy e triagem de UTI (`resultados_aula11_ciao.md`) |
 | `AULA_12/` | AC-4 parte 1 — NSGA-II e fronteira de Pareto (`resultados_aula12.md`) |
+| `AULA_13/` | AC-4 parte final — operadores inteiros, hipervolume e escala hospitalar (`resultados_aula13_CIAO.md`) |
 
 Cada aula inclui notebooks `.ipynb` e arquivo de resultados com saídas e considerações (`resultados_aulaXX.md`; na AULA_05: `resultados_aula.md`; na AULA_06: `resultados_aula06_ciao.md`).
 
@@ -42,3 +43,5 @@ Arquivos em `AULA_10/`: `lab01_aula10.py`, `resultados_aula10.md`, `saida_centro
 Arquivos em `AULA_11/`: `src/engine.py`, `src/model.py`, `src/uti_triagem.py`, `test_fuzzy_engine.py`, `test_uti_triagem.py`, `resultados_aula11_ciao.md`.
 
 Arquivos em `AULA_12/`: `demo_nsga2.py`, exercícios `ex01` a `ex06`, `frota_robos_problem.py`, gráficos e `resultados_aula12.md` / `resultados_aula12_CIAO.md`.
+
+Arquivos em `AULA_13/`: `aula13_lab01.py` a `aula13_lab06.py`, `lab01_pareto.png`, `lab03_operadores.png`, `lab05_mcdm.png`, `resultados_aula13_CIAO.md`.
